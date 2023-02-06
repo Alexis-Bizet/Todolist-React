@@ -1,0 +1,140 @@
+/* Header*/
+.task-main{
+  margin: 0 auto ;
+  width: 1500px;
+}
+
+.title{
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+
+  width: 40%;
+
+  margin: 0 auto;
+  margin-top: 20px;
+
+  border: 1px solid black;
+  border-radius: 5px;
+
+  background-color: rgb(12, 12, 87);
+  color: antiquewhite;
+}
+
+.select{
+  text-align: center;
+  margin-top: 20px;
+}
+
+select{
+  width: 200px;
+  height: 30px;
+
+  text-align: center;
+
+  font-size: 15px;
+
+  border-radius: 10px;
+
+  background-color: rgb(109, 109, 189);
+  color: antiquewhite;
+
+  margin-right: 10px;
+
+}
+
+input{
+  width: 200px;
+  height: 30px;
+
+  font-size: 15px;
+  font-weight: bold;
+
+  border-radius: 10px;
+
+  background-color: rgb(173, 170, 170);
+
+  margin-right: 10px;
+
+}
+
+.btn-task{
+  font-size: 20px;
+
+  border-radius: 10px;
+  height: 30px;
+
+  background-color: rgb(109, 109, 189);
+  color: antiquewhite;
+}
+
+.notif-task{
+  position: absolute;
+  top: 25px;
+  right: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  padding: 20px 35px 20px 35px;
+
+  border: 1px solid black;
+  border-radius: 10px;
+
+  background-color: rgb(173, 170, 170);
+}
+/* List of Days*/
+.container-task{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 50px;
+}
+
+.list-task{
+  width: 400px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-right: 20px;
+  background-color: rgb(12, 12, 87);
+}
+
+.day{
+  color: antiquewhite;
+
+  text-align: center;
+  align-items: center;
+
+  margin-top: 10px;
+
+  font-weight: bold;
+}
+
+.lists-task{
+
+  color: antiquewhite;
+  margin: 10px 0 0 10px;
+  display: flex;
+  margin-bottom: 10px;
+  
+}
+
+.btn-list{
+  
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid black;
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  background-color: rgb(109, 109, 189);
+  
+}
+
+body{
+  background-color: rgb(252, 252, 252);
+}
